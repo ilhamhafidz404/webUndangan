@@ -1,0 +1,34 @@
+main section.content h3 {
+  font-size: 13px;
+}
+main section.content h1 {
+  font-size: 70px;
+  line-height: 60px;
+  color: #434544;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+main section.content h1 span {
+  display: block;
+  font-size: 70px;
+}
+main section.content p {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: auto;
+}
+main section.content .date {
+  color: #434544;
+  margin: 20px auto;
+  border-top: 2px solid #434544;
+  border-bottom: 2px solid #434544;
+  padding: 10px;
+  width: 100px;
+}
+main section.content .date h4 {
+  font-size: 17px;
+  white-space: nowrap;
+}
+main section.content h4, main section.content h5 {
+  font-size: 13px;
+}/*# sourceMappingURL=pengantin.css.map */

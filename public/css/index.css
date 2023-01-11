@@ -1,1 +1,31 @@
-/*# sourceMappingURL=index.css.map */
+main section.content h3 {
+  margin-top: -50px;
+}
+main section.content h3.date {
+  margin-top: 50px;
+}
+main section.content h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+main section.content div.inisial {
+  position: relative;
+  height: 170px;
+  width: 180px;
+  margin-top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main section.content div.inisial h1 {
+  font-size: 65px;
+  color: #464646;
+  position: absolute;
+}
+main section.content div.inisial h1.left {
+  left: 40px;
+  top: 35px;
+}
+main section.content div.inisial h1.right {
+  right: 30px;
+  bottom: 30px;
+}/*# sourceMappingURL=index.css.map */
