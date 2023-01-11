@@ -55,11 +55,13 @@ main section.images img.path1 {
   transform: rotate(-90deg);
   width: 200px;
   left: -70px;
+  z-index: 1;
 }
 main section.images img.path4 {
   width: 200px;
   right: -10px;
   bottom: -1px;
+  bottom-z-index: 1;
 }
 main section.images img.roundedFluid {
   width: 190px;
@@ -70,27 +72,32 @@ main section.images img.roundedFluid {
 main section.images img.roundLeaf {
   width: 80px;
   right: 0px;
+  z-index: 20;
 }
 main section.images img.leafTopRight {
   width: 120px;
   right: 70px;
+  z-index: 20;
 }
 main section.images img.roundedFlower {
   width: 170px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 }
 main section.images img.flower {
   width: 50px;
   left: 80px;
   bottom: -20px;
+  z-index: 20;
 }
 main section.images img.leafBottomLeft {
   width: 130px;
   left: -50px;
   bottom: 0;
   transform: rotate(90deg);
+  z-index: 20;
 }
 
 nav {
