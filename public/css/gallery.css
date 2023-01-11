@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+  grid-template-areas: "1 2" "3 4";
+  grid-auto-rows: 1fr 1fr 1fr;
+  padding: 0 20px;
+  gap: 10px;
+}
+.grid .img1 {
+  grid-area: "1";
+}
+.grid .img2 {
+  grid-area: "2";
+}
+.grid .img3 {
+  grid-area: "3";
+}
+.grid .img4 {
+  grid-area: "4";
+}
+.grid img {
+  width: 100%;
+  border-radius: 5px;
+}/*# sourceMappingURL=gallery.css.map */
