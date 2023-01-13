@@ -1,0 +1,46 @@
+main
+    section.content
+        overflow-y: auto
+        div
+            div
+                margin-bottom: 20px
+            h1
+                font-size: 35px
+            h2, h3
+                font-size: 15px 
+            h2.date
+                font-size: 30px
+                font-weight: bold
+                border-left: 3px solid #547473
+                border-right: 3px solid #547473
+                width: 70px
+                padding: 20px 0 2px 0
+                margin: auto
+                position: relative
+                span
+                    position: absolute
+                    top: 0
+                    left: 50%
+                    transform: translateX(-50%)
+                &::before, &::after
+                    width: 50px
+                    height: 50px
+                    position: absolute
+                    font-size: 18px
+                    font-weight: normal
+                    line-height: 100%
+                &::before
+                    content: 'Minggu'
+                    left: -100%
+                &::after
+                    content: '2021'
+                    right: -100%
+            h3.date
+                font-weight: bold
+                margin-top: 10px
+                text-transform: uppercase
+                margin-bottom: 7px
+            p
+                font-size: 14px
+                width: 70%
+                margin: 20px auto

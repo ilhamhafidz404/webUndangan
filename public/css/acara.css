@@ -1,0 +1,55 @@
+main section.content {
+  overflow-y: auto;
+}
+main section.content div div {
+  margin-bottom: 20px;
+}
+main section.content div h1 {
+  font-size: 35px;
+}
+main section.content div h2, main section.content div h3 {
+  font-size: 15px;
+}
+main section.content div h2.date {
+  font-size: 30px;
+  font-weight: bold;
+  border-left: 3px solid #547473;
+  border-right: 3px solid #547473;
+  width: 70px;
+  padding: 20px 0 2px 0;
+  margin: auto;
+  position: relative;
+}
+main section.content div h2.date span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+main section.content div h2.date::before, main section.content div h2.date::after {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 100%;
+}
+main section.content div h2.date::before {
+  content: "Minggu";
+  left: -100%;
+}
+main section.content div h2.date::after {
+  content: "2021";
+  right: -100%;
+}
+main section.content div h3.date {
+  font-weight: bold;
+  margin-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 7px;
+}
+main section.content div p {
+  font-size: 14px;
+  width: 70%;
+  margin: 20px auto;
+}/*# sourceMappingURL=acara.css.map */
