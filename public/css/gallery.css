@@ -28,4 +28,9 @@ main section.content .grid .img4 {
 main section.content .grid img {
   width: 100%;
   border-radius: 5px;
+}
+main section.content .grid img.gallery {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=gallery.css.map */
